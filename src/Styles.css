@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ body{
+    font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+ }
+ .meme-number{
+    font-size: 15px;
+    font-weight: 800;
+    padding-inline: 20px;
+ }
+ .meme-container{
+    border:1px solid black;
+    margin:20px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    align-items:center;
+    display: flex;
+
+}
+.meme-pic{
+    width: 100px;
+    height: 100px;   
+    margin: 10px;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+}
+.nav-bar{
+   background-color: black;
+   color: white;
+   text-align: center;
+   height: 80px;
+}
+.site-name{
+   font-size:300%;
+}
+.current{
+   margin-top: 3%;
+   text-align: center;
+}
+.current-number{
+   font-size: 200%;
+
+
+}
+.current-image{
+   width:50%;
+}
+.current-name{
+   margin-inline:30%;
+   border: 2px solid rgb(131, 71, 71);
+   background-color: rgb(131,71,71);
+   color:yellow;
+   font-size: 200%;
+   margin-block: 20px;
+}
